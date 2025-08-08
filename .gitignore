@@ -1,0 +1,31 @@
+# Build results
+bin/
+obj/
+publish/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.3mf
+*.manifest
+
+# IDE
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+packages/
+
+# macOS
+.DS_Store
