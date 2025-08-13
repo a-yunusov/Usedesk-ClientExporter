@@ -10,15 +10,3 @@
 2. В UseDeskClientService.cs
 	• await Task.Delay - ожидание в секундах перед повторной попыткой отправки запроса
 	• MaxRetries - максимальное число повторных попыток, чтобы предотвратить бесконечный цикл
-
-Usedesk-ClientExporter/
-│
-├── Program.cs                  # Основной цикл выгрузки
-├── Services/
-│   └── UseDeskClientService.cs # Логика запросов к API, повторы, обработка ошибок
-├── Models/
-│   ├── Client.cs               # Модель клиена
-│   ├── ClientDetails.cs        # Детальный ответ API
-│   └── ClientData.cs           # Полные данные клиента: имя, email, телефоны, тикеты
-│
-└── UsedeskClientExporter.csproj
